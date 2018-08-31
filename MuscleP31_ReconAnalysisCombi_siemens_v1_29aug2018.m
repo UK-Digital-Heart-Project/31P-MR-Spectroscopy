@@ -246,4 +246,7 @@ fclose( fid );
 
 fprintf( 'Processing complete!\n' )
 
+% Show results in command window.
+type SUMMARY_RESULTS.txt
+
 toc
